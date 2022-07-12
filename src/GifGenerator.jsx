@@ -11,7 +11,7 @@ const GiftGenerator = () => {
      }
     return (
         <>
-            <h1>Gift Generator</h1>
+            <h1>Gif Generator</h1>
             < AddCategory 
                 onNewCategory={onAddCategory}
             />

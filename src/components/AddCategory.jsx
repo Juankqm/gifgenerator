@@ -16,7 +16,6 @@ const AddCategory = ({onNewCategory}) => {
     return (
     <>
         <form onSubmit={handleFormInfo}>
-        <h4>Add Category</h4>
         <input 
             type="text"
             placeholder="Search Gifts"
