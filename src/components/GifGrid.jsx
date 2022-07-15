@@ -1,7 +1,8 @@
 import { useFetchGif } from '../hooks/useFetchGif';
-import GifItem from './GifItem';
-import Loading from './Loading';
-const GifGrid = ({ category }) => {
+import { GifItem } from './GifItem';
+import { Loading } from './Loading';
+
+export const GifGrid = ({ category }) => {
 
     const { images, isLoading } = useFetchGif(category);
     return (
@@ -23,4 +24,3 @@ const GifGrid = ({ category }) => {
             </div>
     );
 }
-export default GifGrid;

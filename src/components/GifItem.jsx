@@ -1,4 +1,4 @@
-const GifItem = ({title,src}) => {
+export const GifItem = ({title,src}) => {
     return (
         <div className='card'>
             <img
@@ -9,5 +9,3 @@ const GifItem = ({title,src}) => {
         </div>
     );
 }
-
-export default GifItem;
