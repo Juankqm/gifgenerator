@@ -4,6 +4,7 @@ export const GifItem = ({title,src}) => {
             <img
                 alt={title}
                 src={src}
+                loading="lazy" 
             />
             <p>{title}</p>
         </div>

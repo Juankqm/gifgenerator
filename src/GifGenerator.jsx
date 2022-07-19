@@ -11,10 +11,10 @@ const GiftGenerator = () => {
      }
     return (
         <>
-            <h1>Gif Generator</h1>
-            < AddCategory 
-                onNewCategory={onAddCategory}
-            />
+        <div className="header-app">
+            <h1>The perfect Gif for every occasion!</h1>
+            < AddCategory onNewCategory={onAddCategory}/>
+        </div>
                 {categories.map( (category) => (
                     <GifGrid 
                         key={category} 

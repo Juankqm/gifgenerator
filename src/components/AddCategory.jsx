@@ -18,7 +18,7 @@ export const AddCategory = ({onNewCategory}) => {
         <form onSubmit={handleFormInfo}>
         <input 
             type="text"
-            placeholder="Search Gifts"
+            placeholder="Search Gifs"
             value={inputValue}
             onChange={handleInputChange}
         />
